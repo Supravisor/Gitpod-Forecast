@@ -28,4 +28,13 @@ const gitpodUsage = array => {
 // check if the array needs resetting
 
 const resetCheck = array => {
+
+  if (array.reduce((acc, el) => acc + el, 0) === 0) {
+    alert("Please reset the gitpodMinutes array");
+    minute.innerText = "Please reset the gitpodMinutes array";
+   }
+
 }
+
+
+
