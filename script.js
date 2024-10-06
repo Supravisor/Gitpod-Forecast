@@ -24,3 +24,8 @@ function firstThirtyDays(minutes) {
 const gitpodUsage = array => {
   return (50 * 60) - firstThirtyDays(array);
 }
+
+// check if the array needs resetting
+
+const resetCheck = array => {
+}
