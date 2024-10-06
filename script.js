@@ -35,7 +35,9 @@ const resetCheck = array => {
    } else if (array.reduce((acc, el) => acc + el, 0) > 0) {
       minute.innerText = day + " " + month + "\nHours: " + Math.floor(gitpodUsage(array) / 60) + "\n Minutes: " + Math.floor(((gitpodUsage(array) / 60) - Math.floor(gitpodUsage(array) / 60)) * 60);
       credit.innerText = "Credits: " + Math.floor(gitpodUsage(array) / 6);
-   }
+   } else {
+       alert("Please make sure the gitpodMinutes array only contains positive numbers");
+  }
 
 }
 
