@@ -18,3 +18,9 @@ function firstThirtyDays(minutes) {
   }
   return sum;
 }
+
+// GitPod availability in minutes
+
+const gitpodUsage = array => {
+  return (50 * 60) - firstThirtyDays(array);
+}
