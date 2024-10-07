@@ -6,6 +6,7 @@ const day = date.getDate();
 const month = date.toLocaleString("default", { month: "long" });
 
 const minute = document.getElementById("minutes");
+const credit = document.getElementById("credits");
 
 // working out the minutes for the past thirty days
 
