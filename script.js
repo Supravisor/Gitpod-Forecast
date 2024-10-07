@@ -41,5 +41,4 @@ const resetCheck = array => {
 
 }
 
-
-
+resetCheck(gitpodMinutes);
