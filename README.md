@@ -1,4 +1,4 @@
-# Status: Deployed for current date
+# Status: Increment date for each container
 
 This app will forecast GitPod usage availability for the next thirty days.
 
