@@ -31,13 +31,28 @@ const gitpodUsage = array => {
 const resetCheck = array => {
 
   if (array.reduce((acc, el) => acc + el, 0) === 0) {
+
     alert("Please reset the gitpodMinutes array");
     minute.innerText = "Please reset the gitpodMinutes array";
-   } else if (array.reduce((acc, el) => acc + el, 0) > 0) {
-      minute.innerText = day + " " + month + "\nHours: " + Math.floor(gitpodUsage(array) / 60) + "\n Minutes: " + Math.floor(((gitpodUsage(array) / 60) - Math.floor(gitpodUsage(array) / 60)) * 60);
-      credit.innerText = "Credits: " + Math.floor(gitpodUsage(array) / 6);
+
+  } else if (array.reduce((acc, el) => acc + el, 0) > 0) {
+
+      let counter = 30;
+
+      while (counter > 0) {
+
+        minute.innerText += day + " " + month + "\nHours: " + Math.floor(gitpodUsage(array) / 60) + "\n Minutes: " + Math.floor(((gitpodUsage(array) / 60) - Math.floor(gitpodUsage(array) / 60)) * 60);
+        credit.innerText += "Credits: " + Math.floor(gitpodUsage(array) / 6);
+
+        array.unshift(0);
+        counter--;
+
+      }
+
    } else {
-       alert("Please make sure the gitpodMinutes array only contains positive numbers");
+
+    alert("Please make sure the gitpodMinutes array only contains positive numbers");
+
   }
 
 }
