@@ -41,8 +41,8 @@ const resetCheck = array => {
 
       while (counter > 0) {
 
-        minute.innerText = day + " " + month + "\nHours: " + Math.floor(gitpodUsage(array) / 60) + "\n Minutes: " + Math.floor(((gitpodUsage(array) / 60) - Math.floor(gitpodUsage(array) / 60)) * 60);
-        credit.innerText = "Credits: " + Math.floor(gitpodUsage(array) / 6);
+        minute.innerText += day + " " + month + "\nHours: " + Math.floor(gitpodUsage(array) / 60) + "\n Minutes: " + Math.floor(((gitpodUsage(array) / 60) - Math.floor(gitpodUsage(array) / 60)) * 60);
+        credit.innerText += "Credits: " + Math.floor(gitpodUsage(array) / 6);
 
         array.unshift(0);
         counter--;
