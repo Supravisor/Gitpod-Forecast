@@ -31,9 +31,11 @@ const gitpodUsage = array => {
 const resetCheck = array => {
 
   if (array.reduce((acc, el) => acc + el, 0) === 0) {
+
     alert("Please reset the gitpodMinutes array");
     minute.innerText = "Please reset the gitpodMinutes array";
-   } else if (array.reduce((acc, el) => acc + el, 0) > 0) {
+
+  } else if (array.reduce((acc, el) => acc + el, 0) > 0) {
 
       let counter = 30;
 
@@ -45,8 +47,12 @@ const resetCheck = array => {
         array.unshift(0);
         counter--;
 
+      }
+
    } else {
-       alert("Please make sure the gitpodMinutes array only contains positive numbers");
+
+    alert("Please make sure the gitpodMinutes array only contains positive numbers");
+
   }
 
 }
