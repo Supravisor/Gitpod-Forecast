@@ -1,9 +1,9 @@
 
 // date
 
-const date = new Date();
-const day = date.getDate();
-const month = date.toLocaleString("default", { month: "long" });
+let date = new Date();
+let day = date.getDate();
+let month = date.toLocaleString("default", { month: "long" });
 
 const minute = document.getElementById("minutes");
 const credit = document.getElementById("credits");
@@ -50,6 +50,8 @@ const resetCheck = array => {
 
         array.unshift(0);
         counter--;
+        day++;
+        date.setDate(day);
 
       }
 
