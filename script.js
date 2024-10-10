@@ -3,7 +3,8 @@
 
 let date = new Date();
 let day = date.getDate();
-let month = date.toLocaleString("default", { month: "long" });
+
+let incrementer = 1000*60*60*24;
 
 const minute = document.getElementById("minutes");
 const credit = document.getElementById("credits");
@@ -42,7 +43,7 @@ const resetCheck = array => {
       while (counter > 0) {
 
         minute.innerHTML += `<span>
-        <article>${day} ${month}</article>
+        <article>${new Date (date).getDate()} ${new Date (date).toLocaleString("default", { month: "long" })}</article>
         <article>Hours: ${Math.floor(gitpodUsage(array) / 60)}</article>
         <article>Minutes: ${Math.floor(((gitpodUsage(array) / 60) - Math.floor(gitpodUsage(array) / 60)) * 60)}</article>
         <article>Credits: ${Math.floor(gitpodUsage(array) / 6)}</article>
@@ -50,8 +51,7 @@ const resetCheck = array => {
 
         array.unshift(0);
         counter--;
-        day++;
-        date.setDate(day);
+        date += incrementer;
 
       }
 
