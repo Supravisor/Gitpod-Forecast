@@ -43,7 +43,7 @@ const resetCheck = array => {
       while (counter > 0) {
 
         minute.innerHTML += `<span>
-        <article>${date.getDate()} ${date.toLocaleString("default", { month: "long" })}</article>
+        <article>${new Date (date).getDate()} ${new Date (date).toLocaleString("default", { month: "long" })}</article>
         <article>Hours: ${Math.floor(gitpodUsage(array) / 60)}</article>
         <article>Minutes: ${Math.floor(((gitpodUsage(array) / 60) - Math.floor(gitpodUsage(array) / 60)) * 60)}</article>
         <article>Credits: ${Math.floor(gitpodUsage(array) / 6)}</article>
