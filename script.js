@@ -51,7 +51,7 @@ const resetCheck = array => {
 
         array.unshift(0);
         counter--;
-        date.setDate(incrementer++);
+        date += incrementer++;
 
       }
 
