@@ -3,7 +3,7 @@ body {
   background: rgb(10, 10, 10);
   color: grey;
   font-family: Arial;
-  margin: auto;
+  font-size: clamp(0.5em, 0.9em, 1.2em);
 }
 
 span {
