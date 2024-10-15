@@ -3,6 +3,7 @@ body {
   background: rgb(10, 10, 10);
   color: grey;
   font-family: Arial;
+  margin: auto;
 }
 
 span {
