@@ -15,3 +15,13 @@ span {
   margin: 5px;
   border-radius: 4px;
 }
+
+/* 1 column */
+
+@media (min-width: 160px) {
+
+  #minutes {
+    width: 130px;
+  }
+
+}
