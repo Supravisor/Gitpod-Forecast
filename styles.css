@@ -23,10 +23,10 @@ span {
 
 /* 1 column */
 
-@media (min-width: 160px) {
+@media (min-width: 190px) {
 
   #minutes {
-    width: 130px;
+    width: 142px;
   }
 
 }
