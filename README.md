@@ -1,5 +1,5 @@
 # Status: Style each container
 
-This app will forecast GitPod usage availability for the next thirty days.
+This app forecasts GitPod usage availability for the next thirty days.
 
-The format will include both time and credits available.
+The format includes both time and credits available.
