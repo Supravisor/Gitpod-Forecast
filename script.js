@@ -15,10 +15,7 @@ function firstThirtyDays(minutes) {
   let sum = 0;
   let limiter = minutes.length < 30 ? minutes.length : 30;
 
-  for (let i = 0; i < limiter; i++) {
-      sum += minutes[i];
-  }
-  return sum;
+  return array.slice(0, limiter).reduce((acc, el) => acc + el, 0);
 }
 
 // GitPod availability in minutes
