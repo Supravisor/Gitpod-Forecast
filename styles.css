@@ -33,7 +33,7 @@ span {
 
 /* 2 columns */
 
-@media (min-width: 290px) {
+@media (min-width: 340px) {
 
   #minutes {
     width: 284px;
