@@ -8,7 +8,6 @@ let day = date.getDate();
 let incrementer = 1000*60*60*24;
 
 const minute = document.getElementById("minutes");
-const credit = document.getElementById("credits");
 
 // working out the minutes for the past thirty days
 
