@@ -50,3 +50,13 @@ span {
   }
 
 }
+
+/* 4 columns */
+
+@media (min-width: 620px) {
+
+  #minutes {
+    width: 568px;
+  }
+
+}
