@@ -43,10 +43,20 @@ span {
 
 /* 3 columns */
 
-@media (min-width: 500px) {
+@media (min-width: 540px) {
 
   #minutes {
     width: 426px;
+  }
+
+}
+
+/* 4 columns */
+
+@media (min-width: 670px) {
+
+  #minutes {
+    width: 568px;
   }
 
 }
