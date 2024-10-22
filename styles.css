@@ -60,3 +60,13 @@ span {
   }
 
 }
+
+/* 5 columns */
+
+@media (min-width: 790px) {
+
+  #minutes {
+    width: 710px;
+  }
+
+}
