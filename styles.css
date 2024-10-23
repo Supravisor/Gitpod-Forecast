@@ -73,7 +73,7 @@ span {
 
 /* 6 columns */
 
-@media (min-width: 900px) {
+@media (min-width: 940px) {
 
   #minutes {
     width: 852px;
