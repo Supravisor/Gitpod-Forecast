@@ -6,6 +6,10 @@ body {
   font-size: clamp(0.5em, 0.9em, 1.2em);
 }
 
+h2 {
+  text-align: center;
+}
+
 span {
   border: 1px solid grey;
   display: inline-block;
