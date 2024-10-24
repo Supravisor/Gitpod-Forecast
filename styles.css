@@ -1,6 +1,6 @@
 
 body {
-  background: rgb(30, 30, 30);
+  background: rgb(70, 70, 70);
   color: grey;
   font-family: Arial;
   font-size: clamp(0.5em, 0.9em, 1.2em);
@@ -87,7 +87,7 @@ span {
 
 /* 7 columns */
 
-@media (min-width: 1050px) {
+@media (min-width: 1080px) {
 
   #minutes {
     width: 994px;
