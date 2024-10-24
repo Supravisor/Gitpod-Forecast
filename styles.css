@@ -84,3 +84,13 @@ span {
   }
 
 }
+
+/* 7 columns */
+
+@media (min-width: 1020px) {
+
+  #minutes {
+    width: 994px;
+  }
+
+}
