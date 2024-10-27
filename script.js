@@ -26,6 +26,12 @@ const gitpodUsage = array => {
 
 // check if the array needs resetting
 
+// element for weekday headings
+
+const weekdays = () => {
+
+}
+
 const resetCheck = array => {
 
   if (array.reduce((acc, el) => acc + el, 0) === 0) {
