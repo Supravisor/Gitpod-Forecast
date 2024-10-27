@@ -24,13 +24,15 @@ const gitpodUsage = array => {
   return (50 * 60) - firstThirtyDays(array);
 }
 
-// check if the array needs resetting
-
 // element for weekday headings
 
 const weekdays = () => {
 
+  minute.innerHTML = ``;
+
 }
+
+// check if the array needs resetting
 
 const resetCheck = array => {
 
