@@ -3,7 +3,7 @@
 
 let date = new Date();
 let time = date.getTime();
-let day = date.getDate();
+let today = date.getDate();
 
 let incrementer = 1000*60*60*24;
 
@@ -23,6 +23,23 @@ function firstThirtyDays(minutes) {
 const gitpodUsage = array => {
   return (50 * 60) - firstThirtyDays(array);
 }
+
+// element for weekday headings
+
+const weekdays = () => {
+
+  minute.innerHTML = ``;
+
+  for (let i=0; i<7; i++) {
+    date.setDate(today + i);
+    minute.innerHTML += `<div class="days">${date.toLocaleString("default", { weekday: "long" })}</div>`;
+  }
+
+  return minute.innerHTML += `<br /><br />`;
+
+}
+
+weekdays();
 
 // check if the array needs resetting
 
