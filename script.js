@@ -30,6 +30,11 @@ const weekdays = () => {
 
   minute.innerHTML = ``;
 
+  for (let i=0; i<7; i++) {
+    date.setDate(today + i);
+    minute.innerHTML += `<div class="days">${date.toLocaleString("default", { weekday: "long" })}</div>`;
+  }
+
 }
 
 // check if the array needs resetting
