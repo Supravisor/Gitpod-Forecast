@@ -35,6 +35,8 @@ const weekdays = () => {
     minute.innerHTML += `<div class="days">${date.toLocaleString("default", { weekday: "long" })}</div>`;
   }
 
+  return minute.innerHTML += `<br /><br />`;
+
 }
 
 // check if the array needs resetting
