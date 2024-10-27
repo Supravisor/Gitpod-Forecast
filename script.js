@@ -39,6 +39,8 @@ const weekdays = () => {
 
 }
 
+weekdays();
+
 // check if the array needs resetting
 
 const resetCheck = array => {
