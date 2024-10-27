@@ -3,7 +3,7 @@
 
 let date = new Date();
 let time = date.getTime();
-let day = date.getDate();
+let today = date.getDate();
 
 let incrementer = 1000*60*60*24;
 
