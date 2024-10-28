@@ -31,8 +31,8 @@ const weekdays = () => {
   minute.innerHTML = ``;
 
   for (let i=0; i<7; i++) {
-    date.setDate(today + i);
-    minute.innerHTML += `<div class="days">${new Date (date).toLocaleString("default", { weekday: "long" })}</div>`;
+    minute.innerHTML += `<div class="days">${new Date (today).toLocaleString("default", { weekday: "long" })}</div>`;
+    today += incrementer;
   }
 
   return minute.innerHTML += `<br /><br />`;
