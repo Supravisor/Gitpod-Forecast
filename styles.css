@@ -93,4 +93,10 @@ span {
     width: 994px;
   }
 
+    .days {
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+  }
+
 }
