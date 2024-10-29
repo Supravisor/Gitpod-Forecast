@@ -10,7 +10,7 @@ h2 {
   text-align: center;
 }
 
-span {
+span, .days {
   border: 1px solid black;
   display: inline-block;
   width: 120px;
@@ -94,12 +94,7 @@ span {
   }
 
     .days {
-    font-weight: bold;
-    text-align: center;
     display: inline-block;
-    border: 1px solid green;
-    padding: 0.1em;
-    width: 120px;
   }
 
 }
