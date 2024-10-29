@@ -31,7 +31,7 @@ const weekdays = () => {
   minute.innerHTML = ``;
 
   for (let i=0; i<7; i++) {
-    minute.innerHTML += `<div class="days">${new Date (today).toLocaleString("default", { weekday: "long" })}</div>`;
+    minute.innerHTML += `<span class="days">${new Date (today).toLocaleString("default", { weekday: "long" })}</span>`;
     today += incrementer;
   }
 
