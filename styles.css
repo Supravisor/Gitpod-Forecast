@@ -99,6 +99,7 @@ span {
     display: inline-block;
     border: 1px solid green;
     padding: 0.1em;
+    width: 120px;
   }
 
 }
