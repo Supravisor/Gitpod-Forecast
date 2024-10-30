@@ -20,6 +20,10 @@ span, .days {
   border-radius: 4px;
 }
 
+.days {
+  display: none;
+}
+
 #minutes {
   margin-left: auto;
   margin-right: auto;
