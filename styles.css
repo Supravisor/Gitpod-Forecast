@@ -95,11 +95,11 @@ span, .days {
 @media (min-width: 1080px) {
 
   #minutes {
-    background: rgb(218, 218, 218);
     width: 994px;
   }
 
     .days {
+    background: rgb(218, 218, 218);
     display: inline-block;
   }
 
