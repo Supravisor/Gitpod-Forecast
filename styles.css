@@ -1,6 +1,5 @@
 
 body {
-  background: rgb(100, 100, 100);
   color: black;
   font-family: Arial;
   font-size: clamp(0.5em, 0.9em, 1.2em);
@@ -9,9 +8,11 @@ body {
 h2 {
   text-align: center;
 }
+span {
+  background: rgb(249, 249, 249);
+}
 
 span, .days {
-  border: 1px solid black;
   display: inline-block;
   width: 120px;
   text-align: center;
@@ -98,6 +99,7 @@ span, .days {
   }
 
     .days {
+    background: rgb(218, 218, 218);
     display: inline-block;
   }
 
