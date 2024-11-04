@@ -1,5 +1,5 @@
 
-// array for storing GitPod usage in minutes
+// array for storing Gitpod usage in minutes
 
   /*  Please append to the start of the array the total minutes spent using Gitpod each day.
      On days you do not use Gitpod, append 0. */
