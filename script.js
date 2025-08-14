@@ -18,10 +18,14 @@ function firstThirtyDays(minutes) {
   return minutes.slice(0, limiter).reduce((acc, el) => acc + el, 0);
 }
 
-// GitPod availability in minutes
+// Gitpod availability in minutes
 
 const gitpodUsage = array => {
-  return (50 * 60) - firstThirtyDays(array);
+  if (new Date(time).getMonth() > new Date(date).getMonth()) {
+    return 0;
+  } else {
+      return (50 * 60) - firstThirtyDays(array);
+  }
 }
 
 // element for weekday headings
