@@ -22,7 +22,7 @@ function firstThirtyDays(minutes) {
 
 const gitpodUsage = array => {
   if (new Date(time).getMonth() > new Date(date).getMonth()) {
-    return 0;
+    return 50 * 60;
   } else {
       return (50 * 60) - firstThirtyDays(array);
   }
